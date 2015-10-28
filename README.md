@@ -72,7 +72,7 @@ server.com/
 **res**  
 {"message": "Welcome to the parks and recreation API"}
 
-### Retrives all items  
+### Retrieves all items  
 **req**  
 server.com/playgrounds  
 **res**  
