@@ -15,19 +15,18 @@ Contents:
   
 1 - About
 ---
-Project that showcases the use of a node api using two open Irish datasets  
+The aim of this project is to showcase the use of a node api using two or more open Irish datasets
   
-I chose irish datasets in relation to [Arts, Culture and Heritage](https://data.gov.ie/data/search?res_format=CSV&theme-primary=Arts)  
+I chose irish datasets in relation to [Arts, Culture and Heritage](https://data.gov.ie/data/search?res_format=CSV&theme-primary=Arts),  
   
 I chose this theme/topic due to the vast interest people have in finding and exploring local parks, protected buildings, playgrounds, churches and other places.  
   
-Many people just don't know about these places.  
+Many people want explore but they just don't know about all these amazing structures and places around them.  
 This api will open this data up for people to consume.  
   
-A website with google maps api mapping the co-ordinates from the api would be perfect.  
+A website with google maps integration, mapping the co-ordinates from this api would be a perfect mix.  
   
 With all the talk of [Galway 2020](http://galway2020.ie/en/), I think this api is fitting.  
-  
   
 ![park](http://www.destateparks.com/images/parks/alapocas-run/alapocas-run.jpg "Park")  
   
