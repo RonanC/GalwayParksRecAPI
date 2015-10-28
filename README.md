@@ -1,5 +1,20 @@
 # Galway Parks and Recreation API
 **by Ronan Connolly**  
+
+![Parks and Recreation Logo](https://upload.wikimedia.org/wikipedia/commons/4/4d/Parks_And_Recreation_Logo.png "Parks and Recreation")
+
+Contents:
+---------
+1. About
+2. Datasets used
+3. How to Query the API
+4. Example use of the API
+5. Tools & Environment used
+6. References
+7. Team
+
+1 - About
+---
 Project that showcases the use of a node api using two open Irish datasets 
 
 I chose irish datasets in relation to [Arts, Culture and Heritage](https://data.gov.ie/data/search?res_format=CSV&theme-primary=Arts)
@@ -16,9 +31,10 @@ With all the talk of [Galway 2020](http://galway2020.ie/en/), I think this api i
 
 ![park](http://www.destateparks.com/images/parks/alapocas-run/alapocas-run.jpg "Park")
 
-## Datasets used
-**Link to the Community Facilities Data Sets on Data.Gov.IE:**  
-https://data.gov.ie/dataset/community-facilities-2012-galway-county
+2 - Datasets used
+---
+**Arts, Culture and Heritage Section at [Data.gov.ie](https://data.gov.ie/data)**  
+https://data.gov.ie/data/search?res_format=CSV&theme-primary=Arts
 
 **The first dataset:**  
 [Community_Facilities_2012_Galway_County](https://data.gov.ie/dataset/community-facilities-2012-galway-county)  
@@ -29,7 +45,8 @@ https://data.gov.ie/dataset/community-facilities-2012-galway-county
 **Third (possibly):**  
 [Playgrounds_County_Galway](https://data.gov.ie/dataset/playgrounds-county-galway)  
 
-## How to Query the API
+3 -  How to Query the API
+---
 It's a RESTful api with self-describing urls.
 With which you can use the GET, PUT, POST and DELETE HTTP verbs on to do various actions.
 When the urls are queried a JSON object will be passed back.
@@ -47,7 +64,8 @@ server.com/playgrounds/:id
 server.com/protected_buildings/:id
 
 
-## Example use of the API
+4 - Example use of the API
+---
 ### Basic api message
 **req**  
 server.com/  
@@ -66,10 +84,24 @@ server.com/playgrounds/3
 **res**  
 {"id": "3", "x": "-1104192", "y": "7056858", "location": "Roundstone (Cloch na Ron)", "area": "West Galway - Conamara", "name": "Roundstone Village, Connemara", "age_group": "0 to 16 Years", "Activities": "Climber and Slide, Climber with Rope, Flat Swings, Cradle Swings, Crazy Goose, Springer, Spring SeeSaw, Platform & Slide"}, {"id": "1", "x": "-1104192", "y": "7056858", "location": "Roundstone (Cloch na Ron)", "area": "West Galway - Conamara", "name": "Roundstone Village, Connemara", "age_group": "0 to 16 Years", "Activities": "Climber and Slide, Climber with Rope, Flat Swings, Cradle Swings, Crazy Goose, Springer, Spring SeeSaw, Platform & Slide"}
 
-## Other Information
- - I will deploy this (node) api on Heroku
- - On a seperate Heroku dyno I will deploy a front end angular web app to consume the node api
+5 - Tools & Environment used
+---
+### API  
+ - Created with node, npm, express
+ - Deployed to Heroku
+ - Used datasets as listed above from Data.gov.ie, Arts, Culture and Heritage Section
+ 
+### Front-end website  
+ - Created a front end web app with angular to consume the api
+ - Bootstrap
+ - Google Maps API
 
-## References
+
+6 - References
+---
 - I adapted some MEAN stack code from the [Getting MEAN](https://www.manning.com/books/getting-mean-with-mongo-express-angular-and-node) book for the front end website that is consuming this API.
-This front end api is using an AJAX SPA created in Angular. It's using Bootstrap and the Google Maps API. It's deployed on Heroku.
+
+7 - Team
+---
+This project was created by Ronan Connolly, Software Development student in third year, semester 6, GMIT.  
+<a href="http://ronanconnolly.ie"><img src="https://github.com/RonanC/DodgySpike/blob/master/PromoImages/Ronan.png" width="100px" height="100px" title="Ronan" alt="Ronan Image"/></a>
