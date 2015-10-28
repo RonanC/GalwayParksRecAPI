@@ -71,5 +71,5 @@ server.com/playgrounds/3
  - On a seperate Heroku dyno I will deploy a front end angular web app to consume the node api
 
 ## References
-- I adapted some MEAN stack code from the [Getting MEAN](http://blog.url) book for the front end website that is consuming this API.
+- I adapted some MEAN stack code from the [Getting MEAN](https://www.manning.com/books/getting-mean-with-mongo-express-angular-and-node) book for the front end website that is consuming this API.
 This front end api is using an AJAX SPA created in Angular. It's using Bootstrap and the Google Maps API. It's deployed on Heroku.
