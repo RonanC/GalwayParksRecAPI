@@ -10,8 +10,9 @@ Contents:
 3. How to Query the API
 4. Example use of the API
 5. Tools & Environment used
-6. References
-7. Team
+6. Installation
+7. References
+8. Team
   
 1 - About
 ---
@@ -67,26 +68,39 @@ When the urls are queried a JSON object will be passed back.
 ---
 ### Basic api message  
 **req**  
+```
 server.com/  
+```
 **res**  
+```
 {"message": "Welcome to the parks and recreation API"}
+```
 
 ### Retrieves all items  
 **req**  
+```
 server.com/playgrounds  
+```
 **res**  
+```
 [{"id": "0", "x": "-1104192", "y": "7056858", "location": "Roundstone (Cloch na Ron)", "area": "West Galway - Conamara", "name": "Roundstone Village, Connemara", "age_group": "0 to 16 Years", "Activities": "Climber and Slide, Climber with Rope, Flat Swings, Cradle Swings, Crazy Goose, Springer, Spring SeeSaw, Platform & Slide"}, {"id": "1", "x": "-1104192", "y": "7056858", "location": "Roundstone (Cloch na Ron)", "area": "West Galway - Conamara", "name": "Roundstone Village, Connemara", "age_group": "0 to 16 Years", "Activities": "Climber and Slide, Climber with Rope, Flat Swings, Cradle Swings, Crazy Goose, Springer, Spring SeeSaw, Platform & Slide"}, {"id": "2", "x": "-1104192", "y": "7056858", "location": "Roundstone (Cloch na Ron)", "area": "West Galway - Conamara", "name": "Roundstone Village, Connemara", "age_group": "0 to 16 Years", "Activities": "Climber and Slide, Climber with Rope, Flat Swings, Cradle Swings, Crazy Goose, Springer, Spring SeeSaw, Platform & Slide"}, {"id": "3", "x": "-1104192", "y": "7056858", "location": "Roundstone (Cloch na Ron)", "area": "West Galway - Conamara", "name": "Roundstone Village, Connemara", "age_group": "0 to 16 Years", "Activities": "Climber and Slide, Climber with Rope, Flat Swings, Cradle Swings, Crazy Goose, Springer, Spring SeeSaw, Platform & Slide"}]
+```
   
 ### Specific api query  
 **req**   
+```
 server.com/playgrounds/3    
+```
 **res**  
+```
 {"id": "3", "x": "-1104192", "y": "7056858", "location": "Roundstone (Cloch na Ron)", "area": "West Galway - Conamara", "name": "Roundstone Village, Connemara", "age_group": "0 to 16 Years", "Activities": "Climber and Slide, Climber with Rope, Flat Swings, Cradle Swings, Crazy Goose, Springer, Spring SeeSaw, Platform & Slide"}, {"id": "1", "x": "-1104192", "y": "7056858", "location": "Roundstone (Cloch na Ron)", "area": "West Galway - Conamara", "name": "Roundstone Village, Connemara", "age_group": "0 to 16 Years", "Activities": "Climber and Slide, Climber with Rope, Flat Swings, Cradle Swings, Crazy Goose, Springer, Spring SeeSaw, Platform & Slide"}
+```
   
 5 - Tools & Environment used
 ---
 ### API  
- - Created with node, npm, express
+ - Created the web service with node, npm, express
+ - MongoDB database
  - Deployed to Heroku
  - Used datasets as listed above from Data.gov.ie, Arts, Culture and Heritage Section
   
@@ -95,12 +109,20 @@ server.com/playgrounds/3
  - Bootstrap
  - Google Maps API
   
-  
-6 - References
+6 - Installation
+---
+### Dependencies  
+Once you have cloned the git repo, you need to run the 'npm install' command.  
+This will install all the depencies that are listed in the package.json file.
+```
+npm install
+```
+
+7 - References
 ---
 - I adapted some MEAN stack code from the [Getting MEAN](https://www.manning.com/books/getting-mean-with-mongo-express-angular-and-node) book for the front end website that is consuming this API.
   
-7 - Team
+8 - Team
 ---
 This project was created by Ronan Connolly, Software Development student in fourth year, term 1, GMIT.  
 <a href="http://ronanconnolly.ie"><img src="https://github.com/RonanC/DodgySpike/blob/master/PromoImages/Ronan.png" width="100px" height="100px" title="Ronan" alt="Ronan Image"/></a>
