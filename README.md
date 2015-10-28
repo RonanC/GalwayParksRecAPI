@@ -103,5 +103,5 @@ server.com/playgrounds/3
   
 7 - Team
 ---
-This project was created by Ronan Connolly, Software Development student in third year, semester 6, GMIT.  
+This project was created by Ronan Connolly, Software Development student in fourth year, term 1, GMIT.  
 <a href="http://ronanconnolly.ie"><img src="https://github.com/RonanC/DodgySpike/blob/master/PromoImages/Ronan.png" width="100px" height="100px" title="Ronan" alt="Ronan Image"/></a>
