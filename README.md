@@ -13,21 +13,21 @@ A website with google maps api mapping the co-ordinates from the api would be pe
 
 With all the talk of [Galway 2020](http://galway2020.ie/en/), I think this api is fitting.
 
-Inline-style: 
-![park](http://lifefoodtravel.com/wp-content/uploads/2015/10/parks4.jpg "Park")
+
+![park](http://www.destateparks.com/images/parks/alapocas-run/alapocas-run.jpg "Park")
 
 ## Datasets used
 **Link to the Community Facilities Data Sets on Data.Gov.IE:**  
 https://data.gov.ie/dataset/community-facilities-2012-galway-county
 
 **The first dataset:**  
-[Community_Facilities_2012_Galway_County](http://www.destateparks.com/images/parks/alapocas-run/alapocas-run.jpg)  
+[Community_Facilities_2012_Galway_County](https://data.gov.ie/dataset/community-facilities-2012-galway-county)  
 
 **Second:**  
-[Galway_County_Record_of_Protected_Structures]()  
+[Galway_County_Record_of_Protected_Structures](https://data.gov.ie/dataset/galway-county-record-of-protected-structures)  
 
 **Third (possibly):**  
-[Playgrounds_County_Galway]()  
+[Playgrounds_County_Galway](https://data.gov.ie/dataset/playgrounds-county-galway)  
 
 ## How to Query the API
 It's a RESTful api with self-describing urls.
@@ -62,7 +62,7 @@ server.com/playgrounds
 
 ### Specific api query
 **req**  
-server.com/playgrounds/3
+server.com/playgrounds/3  
 **res**  
 {"id": "3", "x": "-1104192", "y": "7056858", "location": "Roundstone (Cloch na Ron)", "area": "West Galway - Conamara", "name": "Roundstone Village, Connemara", "age_group": "0 to 16 Years", "Activities": "Climber and Slide, Climber with Rope, Flat Swings, Cradle Swings, Crazy Goose, Springer, Spring SeeSaw, Platform & Slide"}, {"id": "1", "x": "-1104192", "y": "7056858", "location": "Roundstone (Cloch na Ron)", "area": "West Galway - Conamara", "name": "Roundstone Village, Connemara", "age_group": "0 to 16 Years", "Activities": "Climber and Slide, Climber with Rope, Flat Swings, Cradle Swings, Crazy Goose, Springer, Spring SeeSaw, Platform & Slide"}
 
