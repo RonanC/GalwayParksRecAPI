@@ -19,7 +19,7 @@ Contents:
 The aim of this project is to showcase the use of a node api using two or more open Irish datasets  
 The [project](https://gist.github.com/ianmcloughlin/53d5f1655bc276373625) is for Dr Ian Mc'Loughlin, Semantic Web & Linked Data Module, GMIT.    
   
-I chose irish datasets in relation to [Arts, Culture and Heritage](https://data.gov.ie/data/search?res_format=CSV&theme-primary=Arts),  
+I chose irish datasets in relation to [Arts, Culture and Heritage](https://data.gov.ie/data/search?res_format=CSV&theme-primary=Arts).  
   
 I chose this theme/topic due to the vast interest people have in finding and exploring local parks, protected buildings, playgrounds, churches and other places.  
   
