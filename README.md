@@ -1,3 +1,4 @@
+###### Semantic Web and Linked Data - Project
 # Galway Parks and Recreation API
 **by Ronan Connolly**  
 
@@ -73,7 +74,7 @@ When the urls are queried a JSON object will be passed back.
 server.com/  
 ```
 **res**  
-```
+```json
 {"message": "Welcome to the parks and recreation API"}
 ```
 
@@ -83,7 +84,7 @@ server.com/
 server.com/playgrounds  
 ```
 **res**  
-```
+```json
 [{"id": "0", "x": "-1104192", "y": "7056858", "location": "Roundstone (Cloch na Ron)", "area": "West Galway - Conamara", "name": "Roundstone Village, Connemara", "age_group": "0 to 16 Years", "Activities": "Climber and Slide, Climber with Rope, Flat Swings, Cradle Swings, Crazy Goose, Springer, Spring SeeSaw, Platform & Slide"},
 {"id": "1", "x": "-1104192", "y": "7056858", "location": "Roundstone (Cloch na Ron)", "area": "West Galway - Conamara", "name": "Roundstone Village, Connemara", "age_group": "0 to 16 Years", "Activities": "Climber and Slide, Climber with Rope, Flat Swings, Cradle Swings, Crazy Goose, Springer, Spring SeeSaw, Platform & Slide"},
 {"id": "2", "x": "-1104192", "y": "7056858", "location": "Roundstone (Cloch na Ron)", "area": "West Galway - Conamara", "name": "Roundstone Village, Connemara", "age_group": "0 to 16 Years", "Activities": "Climber and Slide, Climber with Rope, Flat Swings, Cradle Swings, Crazy Goose, Springer, Spring SeeSaw, Platform & Slide"},
@@ -96,7 +97,7 @@ server.com/playgrounds
 server.com/playgrounds/3    
 ```
 **res**  
-```
+```json
 {"id": "3", "x": "-1104192", "y": "7056858", "location": "Roundstone (Cloch na Ron)", "area": "West Galway - Conamara", "name": "Roundstone Village, Connemara", "age_group": "0 to 16 Years", "Activities": "Climber and Slide, Climber with Rope, Flat Swings, Cradle Swings, Crazy Goose, Springer, Spring SeeSaw, Platform & Slide"}, {"id": "1", "x": "-1104192", "y": "7056858", "location": "Roundstone (Cloch na Ron)", "area": "West Galway - Conamara", "name": "Roundstone Village, Connemara", "age_group": "0 to 16 Years", "Activities": "Climber and Slide, Climber with Rope, Flat Swings, Cradle Swings, Crazy Goose, Springer, Spring SeeSaw, Platform & Slide"}
 ```
   
@@ -118,8 +119,8 @@ server.com/playgrounds/3
 ### Dependencies  
 Once you have cloned the git repo, you need to run the 'npm install' command.  
 This will install all the depencies that are listed in the package.json file.
-```
-npm install
+```sh
+> npm install
 ```
 
 7 - References
